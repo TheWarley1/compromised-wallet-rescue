@@ -1,0 +1,14 @@
+node_modules/
+.env
+*.log
+.selftest-state.json
+
+# never commit key material
+*keypair*.json
+id.json
+*.key
+*.pem
+
+.DS_Store
+__pycache__/
+*.pyc
